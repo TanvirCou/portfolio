@@ -3,7 +3,6 @@ import { featuredData } from '../../data/data';
 
 const Works = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
-    console.log(featuredData.length);
 
     const handleArrowClick = (way) => {
         if (way === 'left') {
