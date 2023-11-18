@@ -5,7 +5,7 @@ const Intro = () => {
         {
             id: "Linkedin",
             logo: "logo-linkedin",
-            link: "https://www.linkedin.com/in/kazi-tnvr/",
+            link: "https://www.linkedin.com/in/tnvr-kazi/",
         },
         {
             id: "github",
