@@ -12,15 +12,15 @@ const Works = () => {
         }
     }
     return (
-        <div className='lg:h-screen h-screen snap-start flex relative justify-center lg:items-center bg-teal-500 lg:pt-20 pt-[90px]' id='works'>
+        <div className='lg:h-screen h-screen snap-start flex relative justify-center items-center bg-teal-500 lg:pt-20 pt-[90px]' id='works'>
             <div className={`lg:h-[70%] h-fit absolute flex left-0 transition-all duration-[2000ms] ease-out `} style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
                 {featuredData.map(data => (
                     <div key={data.id} className='w-screen lg:flex lg:justify-center lg:items-center '>
-                        <div className='lg:flex max-lg:flex-col max-lg:flex max-lg:py-2 xl:w-2/3 lg:w-4/5 w-full lg:h-full h-[480px] rounded bg-white'>
+                        <div className='lg:flex max-lg:flex-col max-lg:flex max-lg:py-2 xl:w-2/3 lg:w-4/5 w-full lg:h-full h-[550px] rounded bg-white'>
                             <div className='lg:w-3/5 w-full'>
                                 <div className='lg:basis-3/5 basis-full lg:flex lg:items-center w-full lg:h-full px-8'>
-                                    <div className='max-lg:flex max-lg:justify-center lg:mb-0 md:mb-2'>
-                                        <img src={data.img} alt="" className='lg:h-80 md:h-60 sm:h-60 min-[320px]:h-52 lg:w-full md:w-2/3 max-md:w-4/5 object-fill rounded  lg:rotate-6' />
+                                    <div className='max-lg:flex max-lg:justify-center lg:mb-0 md:mb-2 max-md:pt-6'>
+                                        <img src={data.img} alt="" className='lg:h-80 md:h-60 sm:h-60 min-[320px]:h-56 lg:w-full md:w-2/3 max-md:w-4/5 object-fill rounded  lg:rotate-6' />
                                     </div>
                                 </div>
                             </div>
@@ -39,10 +39,10 @@ const Works = () => {
                     </div>
                 ))}
             </div>
-            <div className='absolute cursor-pointer text-7xl xl:top-[370px] lg:top-72 max-md:text-5xl max-md:top-[350px] md:top-96 xl:right-12 lg:right-4 max-lg:right-0 lg:text-white' onClick={() => handleArrowClick()}>
+            <div className='absolute cursor-pointer text-7xl lg:top-72 max-md:text-5xl  xl:right-12 lg:right-4 max-lg:right-0 lg:text-white' onClick={() => handleArrowClick()}>
                 <ion-icon name="chevron-forward-outline"></ion-icon>
             </div>
-            <div className='absolute cursor-pointer text-7xl xl:top-[370px] lg:top-72 max-md:top-[350px] md:top-96 max-md:text-5xl xl:left-12 lg:left-3 max-lg:left-0 lg:text-white' onClick={() => handleArrowClick('left')}>
+            <div className='absolute cursor-pointer text-7xl lg:top-72 max-md:text-5xl xl:left-12 lg:left-3 max-lg:left-0 lg:text-white' onClick={() => handleArrowClick('left')}>
                 <ion-icon name="chevron-back-outline"></ion-icon>
             </div>
         </div>

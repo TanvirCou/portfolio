@@ -7,14 +7,14 @@ const Contact = () => {
     };
 
     return (
-        <div className='md:flex max-md:flex-col h-screen snap-start md:pt-24 pt-20' id='contact'>
+        <div className='md:flex max-md:flex-col h-screen snap-start pt-24' id='contact'>
             <div className='lg:w-1/2 md:w-[55%] w-full'>
-                <img src={img} alt="" className='lg:h-full md:h-[500px] h-48 max-md:w-full' />
+                <img src={img} alt="" className='lg:h-full md:h-[500px] h-60 max-md:w-full' />
             </div>
-            <div className='lg:w-1/2 md:w-[45%] w-full flex flex-col items-center md:pt-16 pt-2'>
-                <p className='md:text-3xl text-xl font-bold'>Contact</p>
+            <div className='lg:w-1/2 md:w-[45%] w-full flex flex-col items-center md:pt-16 pt-12'>
+                <p className='md:text-3xl text-2xl font-bold'>Contact</p>
                 <form action="https://formsubmit.co/4982afa8281417deae6920b83f5718fd" method="POST" onSubmit={handleContact}>
-                    <div className='w-full md:my-4 my-2 max-md:mb-4'>
+                    <div className='w-full my-4 max-md:mb-4'>
                         <input type="email" name='email' required placeholder='Email address' className='lg:w-80 md:w-72 w-80 h-10 px-1 md:text-md text-sm placeholder:font-semibold focus:outline-teal-400 rounded shadow-md bg-gray-100' />
                     </div>
                     <div className='w-full my-2'>

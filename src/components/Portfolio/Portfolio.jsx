@@ -53,7 +53,7 @@ const Portfolio = () => {
 
 
     return (
-        <div className=' h-screen snap-start md:pt-24 pt-20' id='portfolio'>
+        <div className=' h-screen snap-start pt-24' id='portfolio'>
             <div>
                 <p className='md:text-4xl text-2xl font-bold text-center'>Portfolio</p>
                 <p className='text-center md:text-sm text-xs text-gray-500 font-semibold pt-1'>My Projects</p>
