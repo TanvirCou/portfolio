@@ -2,7 +2,7 @@ export const featuredData = [
   {
     id: 1,
     title: "Doctors Portal",
-    desc: "This is an online Doctor's Portal web application which is built with MERN. I tried implement hooks, react-router, context-API, firebase authentication and hosting, express-js, mongodb.",
+    desc: "This is an online Doctor's Portal web application which is built with MERN. I tried to implement hooks, react-router, context-API, firebase authentication and hosting, express-js, mongodb.",
     githubClient: "https://github.com/TanvirCou/doctors-portal",
     githubServer: "https://github.com/TanvirCou/doctors-portal-server",
     liveLink: "https://doctors-portalweb.web.app/",

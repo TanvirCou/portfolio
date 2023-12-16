@@ -30,7 +30,7 @@ const Intro = () => {
                     <div className=' lg:h-[500px] md:h-[460px] grid place-content-center'>
                         <p className='font-bold lg:text-3xl text-2xl'>Hi There, I&#39;m</p>
                         <p className='font-bold lg:text-6xl text-5xl md:py-3 py-2'>Tanvir Ahmed</p>
-                        <p className='font-bold lg:text-3xl text-2xl text-teal-600'>MERN Stack Devoloper</p>
+                        <p className='font-bold lg:text-3xl text-2xl text-teal-600'>MERN Stack Developer</p>
 
                     </div>
                     <div className='flex justify-center max-md:mt-6'>
