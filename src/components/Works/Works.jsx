@@ -12,7 +12,7 @@ const Works = () => {
         }
     }
     return (
-        <div className='lg:h-screen h-screen snap-start flex relative justify-center items-center bg-teal-500 lg:pt-20 pt-[90px]' id='works'>
+        <div className='lg:h-screen h-screen snap-start flex relative justify-center items-center bg-teal-500 lg:pt-20' id='works'>
             <div className={`lg:h-[70%] h-fit absolute flex left-0 transition-all duration-[2000ms] ease-out `} style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
                 {featuredData.map(data => (
                     <div key={data.id} className='w-screen lg:flex lg:justify-center lg:items-center '>
