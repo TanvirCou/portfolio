@@ -2,7 +2,7 @@ export const featuredData = [
   {
     id: 1,
     title: "Panda Shop",
-    desc: "This is a multi-vendor online E-commerce web application which is built with React JS.Here we used redux toolkit for state management.",
+    desc: "This is a multi-vendor online E-commerce web application which is built with React JS.Here, I used redux toolkit for state management.",
     githubClient: "https://github.com/TanvirCou/panda-shop",
     liveLink: "https://panda-shop-webapps.netlify.app/",
     img: "https://i.ibb.co/DQSCZWf/panda-shop.png",
@@ -104,7 +104,7 @@ export const reactJsData = [
   {
     id: 1,
     title: "Panda Shop",
-    desc: "This is a multi-vendor online E-commerce web application which is built with React JS.Here we used redux toolkit for state management.",
+    desc: "This is a multi-vendor online E-commerce web application which is built with React JS.Here, I used redux toolkit for state management.",
     githubClient: "https://github.com/TanvirCou/panda-shop",
     liveLink: "https://panda-shop-webapps.netlify.app/",
     img: "https://i.ibb.co/DQSCZWf/panda-shop.png",
