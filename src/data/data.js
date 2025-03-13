@@ -1,6 +1,14 @@
 export const featuredData = [
   {
     id: 1,
+    title: "GradeSync",
+    desc: "Grade-Sync is a school management system built with Next.js, Prisma, and PostgreSQL, featuring role-based dashboards for admins, teachers, students, and parents.",
+    github: "https://github.com/TanvirCou/grade-sync",
+    liveLink: "https://grade-sync-school.vercel.app/",
+    img: "https://i.ibb.co.com/GQppft75/Screenshot-2025-03-13-172955.png",
+  },
+  {
+    id: 2,
     title: "Panda Shop",
     desc: "This is a multi-vendor online E-commerce web application which is built with React JS.Here, I used redux toolkit for state management.",
     githubClient: "https://github.com/TanvirCou/panda-shop",
@@ -8,7 +16,7 @@ export const featuredData = [
     img: "https://i.ibb.co/DQSCZWf/panda-shop.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Panda Book",
     desc: "This is a social media web app named Panda book. This is a clone of facebook web and it's made using React.This web app also contain messenger.I used Socket-io for realtime chat.",
     githubClient: "https://github.com/TanvirCou/social-media",
@@ -17,7 +25,7 @@ export const featuredData = [
     img: "https://i.ibb.co/nPbGrTP/panda-book-min.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Panda Chat",
     desc: "This is a real time chatting web application named Panda-Chat. It's made using React. We can send real time message to our friends. I used Socket-io for real time chat.",
     githubClient: "https://github.com/TanvirCou/realtime-chat-app",
@@ -26,7 +34,7 @@ export const featuredData = [
     img: "https://i.ibb.co/Z1PY8CH/panda-chat-min.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Doctors Portal",
     desc: "This is an online Doctor's Portal web application which is built with MERN. I tried to implement hooks, react-router, context-API, firebase authentication and hosting, express-js, mongodb.",
     githubClient: "https://github.com/TanvirCou/doctors-portal",
@@ -35,30 +43,46 @@ export const featuredData = [
     img: "https://i.ibb.co/WVWJ976/dp-min.png",
   },
   {
-    id: 5,
-    title: "Panda Food",
-    desc: "This is a responsive online food web application which is built with MERN. I tried to implement hooks, react-router, context-API, tailwindcss, swiper js, firebase authentication and hosting, express-js, mongodb, mongoose",
-    githubClient: "https://github.com/TanvirCou/panda-food",
-    githubServer: "https://github.com/TanvirCou/panda-food-server",
-    liveLink: "https://panda-foodweb.web.app/",
-    img: "https://i.ibb.co/3vv7M3x/pf-min.png",
-  },
-  {
     id: 6,
-    title: "Travel guru",
-    desc: "This is a responsive travel booking web application which is built with React JS. I tried to implement hooks, react-router, context-API,tailwindcss, react-responsive-carousel, firebase authentication and hosting.",
-    githubClient: "https://github.com/TanvirCou/travel-guru",
-    liveLink: "https://travel-guruweb.web.app/",
-    img: "https://i.ibb.co/ts1p0r2/tg-min.png",
+    title: "Panda Event",
+    desc: "Panda Event is a responsive event booking web application built with Next.js. It features Clerk for authentication, Stripe for secure payments, and Mongoose for efficient database management.",
+    github: "https://github.com/TanvirCou/panda-event",
+    liveLink: "https://panda-event.vercel.app/",
+    img: "https://i.ibb.co.com/jvcmCyN5/panda-event.png",
+  },
+];
+
+export const nextJsData = [
+  {
+    id: 1,
+    title: "GradeSync",
+    desc: "Grade-Sync is a school management system built with Next.js, Prisma, and PostgreSQL, featuring role-based dashboards for admins, teachers, students, and parents.",
+    github: "https://github.com/TanvirCou/grade-sync",
+    liveLink: "https://grade-sync-school.vercel.app/",
+    img: "https://i.ibb.co.com/GQppft75/Screenshot-2025-03-13-172955.png",
   },
   {
-    id: 7,
-    title: "To Do App",
-    desc: "To Do web application using vanilla js.",
-    githubClient: "https://github.com/TanvirCou/to-do-app",
-    liveLink: "https://tanvircou.github.io/to-do-app/",
-    img: "https://i.ibb.co/gvQm3Mc/todo-min.png",
-  }
+    id: 2,
+    title: "Cyndrome",
+    github: "https://github.com/TanvirCou/cyndrome",
+    liveLink: "https://cyndrome.vercel.app/",
+    img: "https://i.ibb.co.com/ZRG4M64r/cyndrome.png",
+  },
+  {
+    id: 3,
+    title: "Panda Video Conference",
+    github: "https://github.com/TanvirCou/panda-video-conference",
+    liveLink: "https://panda-video-conference.vercel.app/",
+    img: "https://i.ibb.co.com/wNh7TB6F/pc.png",
+  },
+  {
+    id: 4,
+    title: "Panda Event",
+    desc: "Panda Event is a responsive event booking web application built with Next.js. It features Clerk for authentication, Stripe for secure payments, and Mongoose for efficient database management.",
+    github: "https://github.com/TanvirCou/panda-event",
+    liveLink: "https://panda-event.vercel.app/",
+    img: "https://i.ibb.co.com/jvcmCyN5/panda-event.png",
+  },
 ];
 
 export const mernStackData = [

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import PortfolioList from './PortfolioList';
-import { featuredData, mernStackData, reactJsData, vanillaJsData, webDesignData } from '../../data/data';
+import { featuredData, mernStackData, nextJsData, reactJsData, vanillaJsData, webDesignData } from '../../data/data';
 
 const Portfolio = () => {
     const [selected, setSelected] = useState('featured');
@@ -11,16 +11,20 @@ const Portfolio = () => {
             title: "Featured",
         },
         {
+            id: "nextJs",
+            title: "Next-JS",
+        },
+        {
             id: "mernStack",
             title: "MERN-Stack",
         },
         {
             id: "reactJs",
-            title: "React-Js",
+            title: "React-JS",
         },
         {
             id: "vanillaJs",
-            title: "Vanilla-Js",
+            title: "Vanilla-JS",
         },
         {
             id: "webDesign",
@@ -32,6 +36,9 @@ const Portfolio = () => {
         switch (selected) {
             case "featured":
                 setdata(featuredData);
+                break;
+            case "nextJs":
+                setdata(nextJsData);
                 break;
             case "mernStack":
                 setdata(mernStackData);

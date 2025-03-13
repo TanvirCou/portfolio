@@ -9,7 +9,7 @@ const Skills = () => {
                 <p className='md:text-md text-sm  md:py-2 py-1 font-semibold text-gray-400 text-center'>My technical level</p>
             </div>
             <div className='flex justify-center'>
-                <div className='xl:w-2/3 lg:w-11/12 md:w-full sm:w-4/6 w-11/12 md:flex max-md:flex-col md:pt-6 pt-2'>
+                <div className='xl:w-2/3 lg:w-11/12 md:w-full sm:w-4/6 w-11/12 md:flex max-md:flex-col md:pt-2 pt-2'>
                     <div className='md:w-1/2 max-md:w-full max-sm:pb-4 flex justify-center'>
                         <div className='w-[90%] shadow-lg py-6 border border-1 rounded' >
                             <p className='md:text-2xl max-md:text-xl font-semibold text-center md:pb-6 pb-4'>Frontend Skills</p>

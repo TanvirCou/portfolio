@@ -16,22 +16,30 @@ export const frontendSkill = [
         level: 'Intermediate',
     },
     {
-        name: 'JavaScript',
+        name: 'TypeScript',
         level: 'Intermediate',
     },
     {
-        name: 'React',
+        name: 'React JS',
         level: 'Intermediate',
+    },
+    {
+        name: 'Next JS',
+        level: 'Intermediate',
+    },
+    {
+        name: 'Franer Motion',
+        level: 'Basic'
     },
 ];
 
 export const backendSkill = [
     {
-        name: 'Node Js',
+        name: 'Node JS',
         level: 'Basic'
     },
     {
-        name: 'Express Js',
+        name: 'Express JS',
         level: 'Basic'
     },
     {
@@ -40,6 +48,14 @@ export const backendSkill = [
     },
     {
         name: 'Mongoose',
+        level: 'Basic'
+    },
+    {
+        name: 'Prisma',
+        level: 'Basic'
+    },
+    {
+        name: 'PostgreSQL',
         level: 'Basic'
     },
 ];

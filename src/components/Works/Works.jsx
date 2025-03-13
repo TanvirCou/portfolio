@@ -29,7 +29,8 @@ const Works = () => {
                                     <p className='font-bold md:text-2xl max-md:text-xl'>{data.title}</p>
                                     <p className='text-sm text-gray-400 font-semibold md:pt-4 pt-2'>{data.desc}</p>
                                     <div className='py-2'>
-                                        <a type='button' href={data.githubClient} target='_blank' rel="noreferrer" className='bg-teal-500 hover:bg-teal-600 p-2 rounded text-white font-semibold md:text-md max-md:text-sm'>Github Client</a>
+                                        {data.github ? <a type='button' href={data.github} target='_blank' rel="noreferrer" className='bg-teal-500 hover:bg-teal-600 p-2 rounded text-white font-semibold md:text-md max-md:text-sm'>Github</a> : ""}
+                                        {data.githubClient ? <a type='button' href={data.githubClient} target='_blank' rel="noreferrer" className='bg-teal-500 hover:bg-teal-600 p-2 rounded text-white font-semibold md:text-md max-md:text-sm'>Github Client</a> : ""}
                                         {data.githubServer ? <a type='button' href={data.githubServer} target='_blank' rel="noreferrer" className='bg-teal-500 hover:bg-teal-600 p-2 rounded text-white font-semibold md:text-md max-md:text-sm mx-4'>Github Server</a> : ""}
                                     </div>
                                     <a type='button' href={data.liveLink} target='_blank' rel="noreferrer" className='bg-teal-500 hover:bg-teal-600 p-2 w-fit rounded text-white font-semibold md:text-md max-md:text-sm'>Live Link</a>
