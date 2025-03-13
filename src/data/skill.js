@@ -28,7 +28,7 @@ export const frontendSkill = [
         level: 'Intermediate',
     },
     {
-        name: 'Franer Motion',
+        name: 'Framer Motion',
         level: 'Basic'
     },
 ];
