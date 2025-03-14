@@ -1,9 +1,11 @@
+import { toast } from 'react-toastify';
 import img from '../../assets/shake.svg';
 
 const Contact = () => {
 
     const handleContact = () => {
-        alert("Thanks,I'll reply you ASAP.");
+        toast.success("Thank you for reaching out through my portfolio! I appreciate your message and will get back to you as soon as possible.")
+        // alert("Thank you for reaching out through my portfolio! I appreciate your message and will get back to you as soon as possible.");
     };
 
     return (
