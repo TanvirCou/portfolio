@@ -3,7 +3,7 @@ import { frontendSkill, backendSkill } from '../../data/skill';
 const Skills = () => {
 
     return (
-        <div className=' h-screen snap-start md:pt-24 pt-12' id='skills'>
+        <div className=' h-screen snap-start md:pt-24 pt-20' id='skills'>
             <div>
                 <p className='md:text-4xl text-2xl font-bold text-center'>Skills</p>
                 <p className='md:text-md text-sm  md:py-2 py-1 font-semibold text-gray-400 text-center'>My technical level</p>
