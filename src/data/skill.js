@@ -28,8 +28,8 @@ export const frontendSkill = [
         level: 'Intermediate',
     },
     {
-        name: 'Framer Motion',
-        level: 'Basic'
+        name: 'Redux',
+        level: 'Intermediate'
     },
 ];
 

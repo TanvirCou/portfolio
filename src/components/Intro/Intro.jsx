@@ -27,10 +27,10 @@ const Intro = () => {
         <div className='w-full h-screen snap-start pt-[70px]' id='intro'>
             <div className='flex max-md:flex-col-reverse max-md:items-center w-full md:h-full'>
                 <div className='lg:w-1/2 md:w-[45%] w-full max-md:my-16 max-md:text-center'>
-                    <div className=' lg:h-[500px] md:h-[460px] grid place-content-center'>
+                    <div className=' lg:h-[470px] md:h-[460px] grid place-content-center'>
                         <p className='font-bold lg:text-3xl text-2xl'>Hi There, I&#39;m</p>
-                        <p className='font-bold lg:text-6xl text-5xl md:py-3 py-2'>Tanvir Ahmed</p>
-                        <p className='font-bold lg:text-3xl text-2xl text-teal-600'>MERN Stack Developer</p>
+                        <p className='font-bold lg:text-5xl text-4xl md:py-3 py-2'>Kazi Tanvir Ahmed</p>
+                        <p className='font-bold lg:text-3xl text-2xl text-teal-600'>Frontend Developer</p>
 
                     </div>
                     <div className='flex justify-center max-md:mt-6'>
